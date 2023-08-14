@@ -1,0 +1,306 @@
+.topbar,.bg{
+    background-color: brown;
+    width:100%;
+    height:50px;
+
+
+}
+.topbar ul li{
+    display:inline;
+    padding-right: 30px;
+}
+ a{
+    text-decoration: none;
+}
+.topbar ul li a{
+    color:white;
+    font-weight: 500;
+}
+@media(max-width:650px){
+    .socialmedia{
+        display:none;
+    }
+    .courses .col-md-3{
+width:50%;
+    }
+   .about .bx{
+width:300px;
+margin:0px auto;
+    }
+}
+.bx{
+    box-shadow: 2px 3px 5px 3px grey ;
+}
+.about h1{
+    font-size:xx-large;
+
+}
+.about p{
+    text-align: justify;
+    line-height: 29px;
+}
+.about input,.about textarea{
+margin-bottom: 30px;
+margin-top: 30px;
+}
+.about h4{
+    color:white;
+    padding:8px 0px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.about input[type="submit"]{
+    background-color: brown;
+    color:white;
+    padding:8px 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border:none;
+}
+.blue{
+    width:100%;
+    height:250px;
+    background-color: rgb(9, 8, 12);
+    border:2px solid black;
+}
+.cblueone{
+    width:70%;
+    float:left;
+}
+.cbluetwo{
+    width:30%;
+    float:left;
+
+}
+.cbluetwo button{
+    float:left;
+    background-color:rgb(230, 230, 238) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    margin-right: 40px;
+    border:none;
+    width:200px;
+    height:50px;
+    border:2px solid white;
+    margin-top: 100px;
+}
+.cbluetwo button:hover{
+background-color: blue;
+}
+.cblueone p{
+    margin-top: 80px;
+
+    color:rgb(252, 246, 246);
+    text-align: center;
+    font-size: xx-large;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.chfooter{
+    width:30%;
+    float:right;
+    height:150px;
+    text-align: center;
+    border:1px solid rgb(10, 1, 1);
+    border:1px solid white;
+    border-bottom:3px solid rgb(40, 33, 135);
+    margin-right: 10px;
+    margin-left: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.chfooter a{
+    
+    font-size: larger;
+    text-decoration: none;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+}
+.chfooter p{
+    color:white;
+}
+.chfooter a:hover{
+    background-color: rgb(10, 2, 2);
+}
+.footer-item ul li{
+    display:inline;
+}
+.whole{
+    width:100%;
+    height:400px;
+    background-image: url(save2.jpeg);
+    background-repeat: no-repeat;
+    background-color:rgb(44, 41, 41);
+background-blend-mode: multiply;
+background-size: 100%;
+}
+.four{
+    width:100%;
+    height:250px;
+}
+.cfour{
+    width:25%;
+    height:250px;
+    float:left;
+    color:white;
+    
+    
+
+}
+.cfour span{
+    color:blue;
+}
+.cfour h2{
+    
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color:white;
+    font-size: larger;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cfour p{
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.list{
+    text-align: center;
+    list-style-position: inside;
+    text-align: justify;
+    padding-left: 100px;
+    
+}
+.final{
+    list-style-type: none;
+    padding-left: 100px;
+}
+.cfour li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color:rgb(165,42,42);
+    width:100%;
+    height:50px;
+}
+
+.cfooter p{
+    color:white;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+    
+}
+.nav-link{
+font-weight: 300;
+color:black;
+font-size:x-large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bx img{
+    width:auto;
+}
+
+.breadcrumb-item{
+    color:white;
+
+}
+.form{
+    
+    float:left;
+    justify-content: center;
+    
+    background-color:gray;
+
+    padding-bottom:10px;
+}
+.form form{
+    float:right;
+    margin-right: 100px;
+    border: 2px solid black;
+    
+        width: 400px;
+        height: 440px;
+    
+        color: rgb(16, 16, 2);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.4px;
+        border-radius: 1px;
+        background: rgb(182, 189, 228);
+    
+}
+.details a,.final1 {
+    font-weight: 300;
+color:black;
+font-size:x-large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ha{
+    float:right;
+
+}
+.main{
+    background-color: lightgrey;
+}
+.pics{
+    width:100%;
+    height:450px;
+    
+    background-color:rgb(41, 40, 40);
+
+}
+.pics h1{
+    text-align: center;
+    color:rgb(37, 86, 192);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+h3{
+    color:white;
+}
+.pics ul li{
+    display: inline;
+    
+}
+.cpics{
+    float:left;
+    width:33.33%;
+    height:350px;
+    
+    
+}
+.pics ul{
+    padding:20px;
+}
+.pics ul li img{
+    width:140px;
+    height:140px;
+    border-radius: 80px;
+    padding-top: 10px;
+    
+}
+.pics ul li img:hover{
+    border-radius: 0px;
+}
+.pics ul li{
+    text-align: center;
+    
+}
+.pics button{
+    background-color:rgb(49, 94, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    margin-right: 40px;
+    border:none;
+    width:200px;
+    height:50px;
+    
+}
+.pics button:hover{
+    background-color: rgb(31, 31, 190);
+}
